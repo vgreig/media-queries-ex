@@ -11,6 +11,7 @@ main {
     flex-direction: column;
     text-align: center;
     color: #D0D3D4;
+    
 }
 
 .White {
@@ -21,16 +22,18 @@ main {
     display: flex;
     flex-direction: column;
     padding: 10px;
+
 }
 
 .Reaction {
     background: #F9E3E3;
     color: red; 
-    padding: 20px;
+    padding: 20px 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .Memory {
@@ -41,6 +44,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .Verbal {
@@ -51,6 +55,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .Visual {
@@ -61,6 +66,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .score {
@@ -73,5 +79,6 @@ main {
     border-radius: 25px;
     text-align: center;
     width: 40%;
+    height: 40px;
 
 }
