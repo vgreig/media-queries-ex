@@ -1,3 +1,7 @@
+main {
+    font-family: "Nunito-sans", sans-serif;
+}
+
 .Blue {
     background: #6652FA;
     width: 40%;
@@ -6,6 +10,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: #D0D3D4;
 }
 
 .White {
@@ -15,5 +20,58 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
+.Reaction {
+    background: #F9E3E3;
+    color: red; 
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Memory {
+    background: #F9F1E3;
+    color: #FACE7D; 
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Verbal {
+    background: #DAFCD4;
+    color: #59FF3B; 
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Visual {
+    background: #D6DCFE;
+    color: #3855F9; 
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.score {
+    color: black; 
+}
+
+.button {
+    background: #233381;
+    color: #D0D3D4;
+    border-radius: 25px;
+    text-align: center;
+    width: 40%;
+
+}
