@@ -1,0 +1,19 @@
+.Blue {
+    background: #6652FA;
+    width: 40%;
+    height: 40%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.White {
+    background: whitesmoke;
+    width: 40%;
+    height: 40%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
